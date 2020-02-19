@@ -2,7 +2,7 @@
 
 Test task  to create a lightweight money transfer app without using any framework like spring/hibernate.
 
-### Tech stack used behind this test project :
+### Tech stack used in the project :
 * Jooby mvc as web service framework
 * H2 in memory database 
 * Apache Maven as build tool
