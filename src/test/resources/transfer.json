@@ -1,0 +1,23 @@
+{
+  "scenarioName": "Transfer API- Transfer $1 from account 1 to account 2 -",
+  "steps": [
+    {
+      "name": "transfer",
+      "url": "/transfer",
+      "operation": "POST",
+      "request": {
+    	  "body":{
+   		    "senderAccNum": "28XXXX12",
+		    "beneAccNum": "26XXXX39",
+		    "amount": "1000"  			
+    	  }
+      },
+      "assertions": {
+    	 "body":{
+        "Status": "SUCCESS",
+        "Message": "Amount transferred successfully"
+       }
+    }
+    }
+  ]
+}
